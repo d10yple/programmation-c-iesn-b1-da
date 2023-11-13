@@ -67,14 +67,14 @@ int main() {
 
 	/*
 	 * QUESTION 6
-	 * -
-	 * -
+	 * - un des opérandes doit être double pour diviser et afficher un double
+	 * - (facultatif) arrondir à 2 decimales la moyenne
 	*/
 	int nbEtudIG = 110;
 	int nbEtudTI = 105;
-	double moyenne = (nbEtudIG + nbEtudTI) / 2;
+	double moyenne = (double) (nbEtudIG + nbEtudTI) / 2;
 
-
+	printf("En IG: %d\nEn TI: %d\nMoyenne: %.2lf\n", nbEtudIG, nbEtudTI, moyenne);
 
 	return 0;
 }
